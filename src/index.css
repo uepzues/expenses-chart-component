@@ -1,0 +1,54 @@
+:root {
+  /* ### Primary */
+
+  --Soft-red: rgb(236, 119, 95);
+  --Cyan: rgb(118, 181, 188);
+
+  /* ### Neutral */
+
+  --Darkbrown: hsl(25, 47%, 15%);
+  --Mediumbrown: hsl(28, 10%, 53%);
+  --Cream: hsl(27, 66%, 92%);
+  --Verypaleorange: hsl(33, 100%, 98%);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--Cream);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (min-width:500px) {
+  .chartHeading{
+    width: 39rem
+  }
+  
+  .chartBody{
+    padding: 0 1.5rem;
+  }
+  .chartBody h1{
+    font-size: 2.3rem;
+  }
+
+  .bottom{
+    margin: 2rem;
+  }
+
+  .bottom h2{
+    font-size: 3.6rem;
+  }
+}

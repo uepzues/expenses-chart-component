@@ -1,0 +1,49 @@
+.chartBar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 3rem 1rem 2rem 1rem;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--Cream);
+}
+
+.chartBar div div {
+  background-color: var(--Soft-red);
+  margin: 2rem 0.5rem 0 0.5rem;
+  position: relative;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px var(--Mediumbrown);
+}
+
+.bar:hover {
+  background-color: rgba(236, 119, 95, 0.5);
+}
+
+.chartBar div:nth-of-type(3) div {
+  background-color: var(--Cyan) !important;
+}
+.chartBar div:nth-of-type(3) div:hover {
+  background-color: rgba(118, 181, 188, 0.5) !important;
+}
+
+.chartBar div div p {
+  background-color: var(--Darkbrown);
+  text-align: center;
+  position: absolute;
+  top: -30px;
+  left: 5px;
+  margin: 0 -2rem 0 -1rem;
+  width: 125%;
+  padding: 0.6rem;
+  border-radius: 3px;
+  color: var(--Verypaleorange);
+  font-weight: bold;
+  /* display: none; */
+}
+
+.chartBar div span {
+  display: inline-block;
+  margin: 1rem 0 2rem 0;
+  width: 100%;
+  text-align: center;
+  color: var(--Mediumbrown);
+}

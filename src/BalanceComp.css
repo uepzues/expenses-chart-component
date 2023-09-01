@@ -1,0 +1,30 @@
+.chartHeading {
+  width: 35rem;
+  background-color: var(--Soft-red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  line-height: 0.3;
+  color: var(--Verypaleorange);
+  border-radius: 10px;
+}
+
+.chartHeading div{
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.chartHeading div h2{
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+
+.chartHeading div img {
+  display: block;
+  width: 50px;
+}
+

@@ -1,0 +1,27 @@
+.bottom > div:first-of-type {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 1rem 2rem 1rem;
+}
+
+.bottom div div:last-child {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.bottom p {
+  color: var(--Mediumbrown);
+  font-size: 1.4rem;
+}
+
+.bottom h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--Darkbrown);
+}
+
+.bottom h3 {
+  font-size: 1.5rem;
+  color: var(--Darkbrown);
+}

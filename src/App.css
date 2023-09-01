@@ -1,0 +1,9 @@
+section.body{
+    background-color: var(--Verypaleorange);
+    /* border: 2px solid transparent; */
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-radius: 10px;
+
+}
+
